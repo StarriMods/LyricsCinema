@@ -93,6 +93,5 @@ Note: the `ms` value is currently ignored but is required to have.
 1. copy a song file like: `songs\BrainPower.cs`
 2. replace the name `BrainPower` with the id of the song. The `id` can be found in the assets or in the log output of this mod(it logs the id when a song is played)
 3. Find the LCR lyrics or make them yourself at sites like: https://www.megalobiz.com/lrc/maker
-    4.
 4. adjust the style according to the existing songs: `("mm:ss.ms", "Text"),`
 5. add `<SongName>.RegisterLyrics();` in `OnLateInitializeMelon`
